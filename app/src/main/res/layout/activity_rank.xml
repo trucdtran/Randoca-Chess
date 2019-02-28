@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="50dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/color_level_9"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/rank_imageCategory"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            app:srcCompat="@drawable/icon_star_10" />
+
+        <TextView
+            android:id="@+id/rank_textCategory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="@color/color_text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/rank_imageOpenSelector"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_level_12"
+            app:srcCompat="@drawable/icon_open" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rank_recycleView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color_level_6"
+        app:layout_constraintBottom_toTopOf="@+id/rank_layoutCurrentUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/rank_layoutCurrentUser"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/color_level_9"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/rank_textMyOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="1000"
+            android:textColor="@color/color_level_15"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/rank_imageMyPhoto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/rank_imageMyPhoto"
+            android:layout_width="50dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/rank_textMyOrder"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/com_facebook_profile_picture_blank_square" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:weightSum="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/rank_imageMyPhoto"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/rank_textMyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@color/color_text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rank_textMyStatistic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@color/color_text"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSelector"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:background="@color/color_level_12"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:weightSum="9"
+        app:layout_constraintBottom_toTopOf="@+id/rank_layoutCurrentUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rank_recycleView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/color_level_15"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/rank_statistic"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <RadioButton
+                    android:id="@+id/rank_radio1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_rank"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rank_radio2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_win_per"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rank_radio3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_desc"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <RadioButton
+                    android:id="@+id/rank_radio4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_gold"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rank_radio5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_games_played"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/color_level_15"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/rank_record"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+                <RadioButton
+                    android:id="@+id/rank_radio6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_record_a"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rank_radio7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_record_b"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rank_radio8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_record_c"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rank_radio9"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_record_d"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+                <RadioButton
+                    android:id="@+id/rank_radio10"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_record_e"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rank_radio11"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_record_f"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rank_radio12"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_record_g"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

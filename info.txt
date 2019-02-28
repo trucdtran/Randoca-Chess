@@ -1,0 +1,29 @@
+﻿QUI ƯỚC:
+Bộ bài mặc định khi khởi tạo tài khoản: Card1 => Card13 (13 cards)
+Bộ bài Boss RED: Card1 => Card10 (+Cards: 1,2,3)
+Bộ bài Boss ORANGE: Card1 => Card10 (+Cards: 11,12,13)
+Bộ bài Boss YELLOW: Card1 => Card10 (+Cards: 20,21,26)
+Bộ bài Boss GREEN: Card5 => Card15 (+Cards: 20,21)
+Bộ bài Boss BLUE: Card9 => Card21
+Bộ bài Boss INDIGO: Card12 => Card 24
+Bộ bài Boss VIOLET: Card16 => Card 27 (+Cards 11)
+
+Bàn cờ: 9x9
+
+Kỷ lục chưa khởi tạo: 1000 turns
+
+Chơi Offline: Thắng +10 golds, phá kỷ lục +100 golds
+Chơi Online: Vàng thưởng
+-Thua: Turns x Độ chênh lệch rank
+-Thắng: Turns x Độ chênh lệch rank (trường hợp hết thời gian) hoặc 
+	(50-Turns) x Độ chênh lệch rank (trường hợp thắng chính đáng)
+Điểm tương tự.
+
+Rank chia thành Đồng => Bạc => Vàng => Bạch Kim => Kim Cương => Cao Thủ, phân bậc từ 1 đến 9
+Điểm số để thăng bậc phụ thuộc vào rank:
+Đồng: 100đ
+Bạc: 200đ
+Vàng: 500đ
+Bạch Kim: 1000đ
+Kim Cương: 2000đ
+Cao Thủ: 5000đ

@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name" translatable="false">Rainbow Chess</string>
+    <string name="facebook_app_id" translatable="false">248022502471941</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb248022502471941</string>
+
+    <string name="app_notification_game">New Game Requests</string>
+    <string name="app_notification_friend">Add Friend Requests</string>
+
+    <string name="dashboard_profile">Profile</string>
+    <string name="dashboard_rank">Ranking</string>
+    <string name="dashboard_offline">Play With AI</string>
+    <string name="dashboard_online">Find Opponent</string>
+    <string name="dashboard_shop">Shop</string>
+    <string name="dashboard_desc">My Desc</string>
+    <string name="dashboard_setting">Randoca Cup</string>
+
+    <string name="findopponent_all_users">All Users</string>
+    <string name="findopponent_online_users">Online Users</string>
+    <string name="findopponent_friends">My Friends</string>
+    <string name="findopponent_rank_mode">Send Requests For All</string>
+
+    <string name="request_accept">Accept</string>
+    <string name="request_decline">Decline</string>
+
+    <string name="result_win">Win</string>
+    <string name="result_lose">Lose</string>
+    <string name="result_new_archive">New Achievement</string>
+    <string name="result_new_record">Break The Record</string>
+    <string name="result_rank">Rank:</string>
+    <string name="result_score">Scores:</string>
+    <string name="result_win_per">Win Rate:</string>
+    <string name="result_games_won">Games Won:</string>
+    <string name="result_games_played">Games Played:</string>
+    <string name="result_gold">Golds:</string>
+    <string name="result_desc_power">Desc Power:</string>
+    <string name="result_upgrade">Promote to</string>
+    <string name="result_back">Back</string>
+
+    <string name="profile_button_statistics">Statistics</string>
+    <string name="profile_button_ranks">Ranking</string>
+    <string name="profile_button_records">Records</string>
+    <string name="profile_button_friends">Friends</string>
+    <string name="profile_rank">Rank</string>
+    <string name="profile_win_per">Win Rate</string>
+    <string name="profile_gold">Golds</string>
+    <string name="profile_desc">Desc Power</string>
+    <string name="profile_games_played">Games Played</string>
+    <string name="profile_record_a" translatable="false">Boss RED</string>
+    <string name="profile_record_b" translatable="false">Boss ORANGE</string>
+    <string name="profile_record_c" translatable="false">Boss YELLOW</string>
+    <string name="profile_record_d" translatable="false">Boss GREEN</string>
+    <string name="profile_record_e" translatable="false">Boss BLUE</string>
+    <string name="profile_record_f" translatable="false">Boss INDIGO</string>
+    <string name="profile_record_g" translatable="false">Boss VIOLET</string>
+    <string name="profile_rank_prefix">Class</string>
+    <string name="profile_50_games">Must play at least 50 games</string>
+    <string name="profile_fail">Not Achieved</string>
+    <string name="profile_record_prefix">Won in</string>
+    <string name="profile_record_suffix">turns</string>
+
+    <string name="findai_difficult">Difficulty:</string>
+    <string name="findai_record">Record:</string>
+    <string name="findai_myrecord">My Achieved:</string>
+    <string name="findai_gold">Received Golds:</string>
+
+    <string name="rank_statistic">Statistics Ranking</string>
+    <string name="rank_record">Records Ranking</string>
+
+    <string name="shop_normal_card_3">Card 3x3</string>
+    <string name="shop_normal_card_5">Card 5x5</string>
+    <string name="shop_super_card_5">Super Card 5x5</string>
+    <string name="shop_cost_100">Cost: 200</string>
+    <string name="shop_cost_1000">Cost: 1000</string>
+    <string name="shop_cost_5000">Cost: 5000</string>
+    <string name="shop_count">Amount:</string>
+
+    <string name="user_rank_0">Bronze</string>
+    <string name="user_rank_1">Sliver</string>
+    <string name="user_rank_2">Gold</string>
+    <string name="user_rank_3">Platinum</string>
+    <string name="user_rank_4">Diamond</string>
+    <string name="user_rank_5">Master</string>
+
+    <string name="menu_friend_requests">Add Friend</string>
+    <string name="menu_game_requests">Request Game</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="dialog_title">Quit Game</string>
+    <string name="dialog_content">Do you want to give up the game?</string>
+    <string name="dialog_deccept">No</string>
+
+    <string name="toast_future">At present, there is no Randoca Cup!</string>
+    <string name="toast_desc_fail">My desc must have 13 cards!</string>
+    <string name="toast_desc_success">Saved!</string>
+    <string name="format_time">day</string>
+    <string name="format_score">scores</string>
+    <string name="format_status_offline">Offline</string>
+    <string name="format_status_online">Ready</string>
+    <string name="format_status_playing">Busy</string>
+
+</resources>

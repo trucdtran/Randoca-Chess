@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "805755799637",
+    "firebase_url": "https://rainbowchess-a9c78.firebaseio.com",
+    "project_id": "rainbowchess-a9c78",
+    "storage_bucket": "rainbowchess-a9c78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805755799637:android:371be615b256a6cd",
+        "android_client_info": {
+          "package_name": "com.chaupha.rainbowchess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805755799637-u4u10c3u4tcl1begmedg4m4n0liqs8sf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chaupha.rainbowchess",
+            "certificate_hash": "42e6aced6e4264b0c849e944bc1164443667bc68"
+          }
+        },
+        {
+          "client_id": "805755799637-5auraqb17p9sig9hhid90re49mitd81c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG34HVfwNLBx51D4ifFRJjYcgdA3-6oFA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805755799637-q2u19o0gtuvvj1lqoa9ls5cn3195jdg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

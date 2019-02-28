@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#e464f5</color>
+    <color name="color_background">#d0e1f9</color>
+    <color name="color_text">#ffffff</color>
+    <color name="color_secondary">#4d648d</color>
+    <color name="color_thirdary">#283655</color>
+    <color name="color_level_1">#ffdbac</color>
+    <color name="color_level_2">#f1c27d</color>
+    <color name="color_level_3">#e0ac69</color>
+    <color name="color_level_4">#c68642</color>
+    <color name="color_level_5">#8d5524</color>
+    <color name="color_level6">#d0e1f9</color>
+    <color name="color_level_7">#4d648d</color>
+    <color name="color_level_8">#283655</color>
+    <color name="color_level_9">#1e1f26</color>
+    <color name="color_level_6">#d0e1f9</color>
+    <color name="color_level11">#ffbbee</color>
+    <color name="delete">#d0e1f9</color>
+    <color name="color_level_11">#ffbbee</color>
+    <color name="color_level_12">#ff99cc</color>
+    <color name="color_level_13">#ff77aa</color>
+    <color name="color_level_14">#ff5588</color>
+    <color name="color_level_15">#ff3377</color>
+    <color name="color_text_2">#a2a2a2</color>
+
+</resources>

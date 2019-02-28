@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_level_11"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/result_textRedStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="@color/color_level_15"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/result_photoRed"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/com_facebook_profile_picture_blank_portrait" />
+
+                <TextView
+                    android:id="@+id/result_textRedName"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="@color/color_level_15"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:weightSum="7">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_15"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/result_photoRed1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoRed2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoRed3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoRed4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoRed5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoRed6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoRed7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoRed8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoRed9"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoRed10"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/result_textRedRank"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_14"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/color_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/result_textRedScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_15"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/color_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/result_textRedWinPer"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_14"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/color_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/result_textRedPlayedGame"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_15"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/color_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/result_textRedWonGame"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_14"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/color_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_15"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        app:srcCompat="@drawable/icon_gold" />
+
+                    <TextView
+                        android:id="@+id/result_textRedGold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:text="TextView"
+                        android:textColor="@color/color_text"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_level6"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/result_textBlueStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="@color/color_level_8"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/result_photoBlue"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/com_facebook_profile_picture_blank_portrait" />
+
+                <TextView
+                    android:id="@+id/result_textBlueName"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="@color/color_level_8"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:weightSum="7">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_8"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/result_photoBlue1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoBlue2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoBlue3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoBlue4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoBlue5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoBlue6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoBlue7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoBlue8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoBlue9"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+
+                    <ImageView
+                        android:id="@+id/result_photoBlue10"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/icon_star_1" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/result_textBlueRank"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_7"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/color_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/result_textBlueScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_8"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/color_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/result_textBlueWinPer"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_7"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/color_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/result_textBluePlayedGame"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_8"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/color_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/result_textBlueWonGame"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_7"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/color_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_level_8"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/result_textBlueGold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:gravity="right"
+                        android:text="TextView"
+                        android:textColor="@color/color_text"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        app:srcCompat="@drawable/icon_gold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/result_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color_level_9"
+        android:text="@string/request_accept"
+        android:textColor="@color/color_text"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+</LinearLayout>
